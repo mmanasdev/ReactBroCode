@@ -6,11 +6,12 @@ import { createRoot } from 'react-dom/client'
 // import StylesLesson from './StylesLesson'// 3. Add CSS styles to React components
 // import PropsLesson from './PropsLesson'// 4. Props Lesson
 // import ConditionalRenderingLesson from './ConditonalRenderingLesson'// 5. Conditional Rendering Lesson
-import RenderListLesson from './RenderListLesson'// 6. Render List Lesson
+// import RenderListLesson from './RenderListLesson'// 6. Render List Lesson
+import ClickEventLesson from './ClickEventLesson'// 7. Click Event Lesson
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RenderListLesson />
+    <ClickEventLesson />
   </StrictMode>,
 )
