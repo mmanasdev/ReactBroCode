@@ -7,11 +7,12 @@ import { createRoot } from 'react-dom/client'
 // import PropsLesson from './PropsLesson'// 4. Props Lesson
 // import ConditionalRenderingLesson from './ConditonalRenderingLesson'// 5. Conditional Rendering Lesson
 // import RenderListLesson from './RenderListLesson'// 6. Render List Lesson
-import ClickEventLesson from './ClickEventLesson'// 7. Click Event Lesson
+// import ClickEventLesson from './ClickEventLesson'// 7. Click Event Lesson
+import UseStateLesson from './UseStateLesson'// 8. UseState Lesson
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <ClickEventLesson />
+    <UseStateLesson />
   </StrictMode>,
 )

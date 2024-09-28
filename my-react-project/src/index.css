@@ -92,3 +92,32 @@
   color: hsl(0, 0%, 45%);
   cursor: pointer;
 }
+
+/* lesson 8. useState() hook */
+.counter-container {
+  text-align:center;
+  font-family: Arial, sans-serif;
+}
+
+.count-display {
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.counter-button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight:bold;
+  background-color: hsl(197, 100%, 58%);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 0px 5px;
+}
+
+.counter-button:hover {
+  background-color: hsl(197, 100%, 48%);
+}
