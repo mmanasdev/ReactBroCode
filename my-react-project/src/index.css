@@ -121,3 +121,51 @@
 .counter-button:hover {
   background-color: hsl(197, 100%, 48%);
 }
+
+/* lesson 10. color picker app */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 50px;
+}
+
+.color-display {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid hsl(0, 0%, 80%);
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.35s ease;
+}
+
+.color-display p {
+  font-size: 2em;
+  text-align: center;
+  color: hsl(0, 0%, 20%);
+}
+
+label {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+imput[type="color"] {
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 3px solid hsl(0, 0%, 80%);
+}
