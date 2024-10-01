@@ -12,11 +12,12 @@ import { createRoot } from 'react-dom/client'
 // import OnChangeLesson from './OnChangeLesson'// 9. OnChange Lesson
 // import ColorPickerLesson from './ColorPickerLesson'// 10. Color Picker Lesson
 // import UpdaterFunctionLesson from './UpdaterFunctionLesson'// 11. Updater Function Lesson
-import UpdateObjectInStateLesson from './UpdateObjectInStateLesson'// 12. Update Object In State
+// import UpdateObjectInStateLesson from './UpdateObjectInStateLesson'// 12. Update Object In State
+import UpdateArraystInStateLesson from './UpdateArraystInStateLesson'// 13. Update Array In State
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <UpdateObjectInStateLesson />
+    <UpdateArraystInStateLesson />
   </StrictMode>,
 )
