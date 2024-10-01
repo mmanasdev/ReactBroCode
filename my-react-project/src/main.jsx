@@ -10,11 +10,12 @@ import { createRoot } from 'react-dom/client'
 // import ClickEventLesson from './ClickEventLesson'// 7. Click Event Lesson
 // import UseStateLesson from './UseStateLesson'// 8. UseState Lesson
 // import OnChangeLesson from './OnChangeLesson'// 9. OnChange Lesson
-import ColorPickerLesson from './ColorPickerLesson'// 10. Color Picker Lesson 
+// import ColorPickerLesson from './ColorPickerLesson'// 10. Color Picker Lesson
+import UpdaterFunctionLesson from './UpdaterFunctionLesson'// 11. Updater Function Lesson
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <ColorPickerLesson />
+    <UpdaterFunctionLesson />
   </StrictMode>,
 )
