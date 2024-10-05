@@ -7,7 +7,7 @@ useState = A React Hook that allows the creation of a statefull variable AND
 setter function to update its value in the Virtual DOM.
 [name, setName] = useState('John Doe')
 */
-// import MyComponent from "./MyComponent"
+// import MyComponentUseState from "./MyComponentUseState"
 import Counter from "./Counter"
 
 function UseStateLesson() {

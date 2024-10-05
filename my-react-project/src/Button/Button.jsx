@@ -1,9 +1,9 @@
 
-// import styles from './Button.module.css'
+// import styles from './Button.module.css' // 2. modules
 
 function Button() {
 
-    const styles = {
+    const styles = {// 3. inline
         backgroundColor: 'hsl(200, 100%, 50%)',
         color: 'white',
         padding: '10px 20px',
