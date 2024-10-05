@@ -16,11 +16,12 @@ import { createRoot } from 'react-dom/client'
 // import UpdateArraystInStateLesson from './UpdateArraystInStateLesson'// 13. Update Array In State
 // import UpdateArraystOfObjectsInStateLesson from './UpdateArraystOfObjectsInStateLesson'// 14. Update Array of Objects In State
 // import ToDoListLesson from './ToDoListLesson'// 15. ToDo List Lesson
-import UseEffectLesson from './UseEffectLesson'// 16. UseEffect Lesson
+// import UseEffectLesson from './UseEffectLesson'// 16. UseEffect Lesson
+import DigitalClockLesson from './DigitalClockLesson' // 17. Digital Clock Lesson
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <UseEffectLesson />
+    <DigitalClockLesson />
   </StrictMode>,
 )
