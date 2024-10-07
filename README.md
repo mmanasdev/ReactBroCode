@@ -23,18 +23,25 @@ Welcome to the **[React Full Course for Free ⚛️ (2024)](https://www.youtube.
 ## 🚀 Getting Started
 
 ### Installation
-```bash
+```sh
 # Clone the repository
 git clone https://github.com/your-username/react-full-course-2024.git
+```
 
 # Navigate to the project folder
+```sh
 cd react-full-course-2024
+```
 
 # Install dependencies
 npm install
 
 ### Running the Project
-```bash
+```sh
 npm start
+```
 
 Access at `http://localhost:3000`.
+
+
+Happy coding! 🎉
