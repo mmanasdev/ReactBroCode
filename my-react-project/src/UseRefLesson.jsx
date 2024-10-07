@@ -34,23 +34,23 @@ function UseRefLesson() {
         // ref.current++;
 
         inputRef1.current.focus();
-        inputRef1.current.style.backgoundColor = "yellow";
-        inputRef2.current.style.backgoundColor = "";
-        inputRef3.current.style.backgoundColor = "";
+        inputRef1.current.style.backgroundColor = "yellow";
+        inputRef2.current.style.backgroundColor = "";
+        inputRef3.current.style.backgroundColor = "";
     }
 
     function handleClick2() {
         inputRef2.current.focus();
-        inputRef1.current.style.backgoundColor = "";
-        inputRef2.current.style.backgoundColor = "yellow";
-        inputRef3.current.style.backgoundColor = "";
+        inputRef1.current.style.backgroundColor = "";
+        inputRef2.current.style.backgroundColor = "yellow";
+        inputRef3.current.style.backgroundColor = "";
     }
 
     function handleClick3() {
         inputRef3.current.focus();
-        inputRef1.current.style.backgoundColor = "";
-        inputRef2.current.style.backgoundColor = "";
-        inputRef3.current.style.backgoundColor = "yellow";
+        inputRef1.current.style.backgroundColor = "";
+        inputRef2.current.style.backgroundColor = "";
+        inputRef3.current.style.backgroundColor = "yellow";
     }
 
     return (
